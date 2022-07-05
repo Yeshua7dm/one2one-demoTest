@@ -1,0 +1,16 @@
+{
+  "name": "keycloak-nodejs-auth",
+  "version": "1.0.0",
+  "description": "keycloak auth",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "author": "Joshua Oke",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "keycloak-connect": "^18.0.2"
+  }
+}
